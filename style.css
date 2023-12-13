@@ -1,0 +1,156 @@
+h1 {text-transform: uppercase; font-family: 'Monument Extended', sans-serif; font-size: 64px; color: #fff; margin-top: 20px;}
+.main-section {
+    width: 100%;
+}
+.section3 {
+    width: 950px;
+    position: relative;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-align: center;
+}
+.paragraph {
+    background: #ffffff;
+}
+.paragraph h3 {
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 48px;
+    margin-top: 25px;
+    line-height: 55px;
+}
+.paragraph p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 140px;
+    line-height: 30px;
+}
+/*hdhdhdhfhhf */
+
+.main-section {
+    width: 100%;
+}
+.section1 {
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+}
+.section-text-cont {
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    color: #fff;
+    font-family: sans-serif;
+}
+header {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    line-height: 80px;
+}
+.cavallino {
+    width: 50px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+
+
+/* Box Login */
+:root{
+	--outer-shadow : 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+	--inner-shadow : inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+	--inner-shadow-none : inset 0px 0px 0px #d0d0d0, inset 0px 0px 0px #f8f8f8;
+}
+
+.account{
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: border-box;
+	margin:0;
+	outline: none;
+}
+.login-page{
+	min-height: 100vh;
+	padding: 100px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login-page .form{
+	max-width: 350px;
+	width: 100%;
+	padding: 50px 30px;
+	border-radius: 8px;
+	box-shadow: var(--outer-shadow);
+}
+.login-page .form h1{
+	font-size: 28px;
+	font-family: 'Monument Extended',sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin:0 0 30px;
+	color: #ffffff;
+}
+.login-page .form .input-group{
+	margin-bottom: 30px;
+	box-shadow: var(--inner-shadow);
+	border-radius: 30px;
+	transition: box-shadow 0.3s ease;
+	position: relative;
+	z-index: 1;
+}
+.login-page .form .input-group:before{
+	content: '';
+	position: absolute;
+	box-sizing: border-box;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	border-radius: 30px;
+	transition: box-shadow 0.3s ease;
+}
+.login-page .form .input-group:hover:before{
+	box-shadow: var(--outer-shadow);
+}
+.login-page .form .input-group:hover{
+	box-shadow: var(--inner-shadow-none);
+}
+.login-page .form .input-control{
+	display: block;
+	height: 50px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 15px;
+	border:none;
+	border-radius: 30px;
+	background-color: transparent;
+	color: #ffffff;
+}
+.login-page .form .submit-btn{
+	height: 50px;
+	width: 100%;
+	border-radius: 30px;
+	font-size: 16px;
+	text-transform: capitalize;
+	border: none;
+	box-shadow: var(--outer-shadow);
+	background-color: #a9b838;
+	cursor: pointer;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+.login-page .form .submit-btn:hover{
+   background-color: #d8ef24;
+   color: #000;
+}
+
